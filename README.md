@@ -1,6 +1,6 @@
 # Open Cv Tutorial
 
-![OpenCv Logo](./Media/opencv-logo-white.png)
+<img align="right" src="./Media/opencv-logo-white.png">
 
 ## Introduction
 
@@ -23,6 +23,8 @@ Computer vision allows the computer to perform the same kind of tasks as humans 
 
 - Object Classification - In the object classification, we train a model on a dataset of particular objects, and the model classifies new objects as belonging to one or more of your training categories.
 - Object Identification - In the object identification, our model will identify a particular instance of an object - for example, parsing two faces in an image and tagging one as Virat Kohli and other one as Rohit Sharma.
+
+<img height="400px" width="600px" src="./Media/face-detected.jpeg">
 
 ## Support
 

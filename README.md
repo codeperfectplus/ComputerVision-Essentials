@@ -1,6 +1,18 @@
-# Open Cv Tutorial
+# OpenCv Tutorial
 
 <img align="right" src="./Media/opencv-logo-white.png">
+
+- [OpenCv Tutorial](#opencv-tutorial)
+  - [Introduction](#introduction)
+  - [How To Run](#how-to-run)
+  - [Usage](#usage)
+  - [Support](#support)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+  - [Authors and acknowledgment](#authors-and-acknowledgment)
+  - [License](#license)
+  - [Project status](#project-status)
+  - [Author](#author)
 
 ## Introduction
 
@@ -10,13 +22,13 @@ OpenCV is a cross-platform library using which we can develop real-time computer
 
 - Install python 3.6+
 
+Create virtual envionment with `pipenv`.
 ```bash
-pip insall opencv-python
-pip install numpy
-pip install matplotlib
-pip install pillow
+pip install pipenv                 #only for one time
+pipenv install -r requirements.txt
+pipenv shell
 ```
-  
+
 ## Usage
 
 Computer vision allows the computer to perform the same kind of tasks as humans with the same efficiency. There are a two main task which are defined below:
@@ -56,8 +68,8 @@ For open source projects,Under MIT License.
 
 ## Author
 
-- Project : Open Cv Tutorial
-- Author  : CodePerfectPlus
+- Project : OpenCv Tutorial
+- Author  : Py-Contributors
 - Language : Python
 - Github : <https://github.com/codePerfectPlus>
 - Website : <http://codeperfectplus.github.io>

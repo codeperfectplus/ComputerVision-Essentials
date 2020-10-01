@@ -1,5 +1,5 @@
 # Image Cropper  
-This code allows you to crop images and save them. Mouse Events will be used to achieve this.  
+This code allows you to crop images dynamically and save them. Mouse Events in OpenCV will be used to achieve this.  
 
 ### Executing the code  
 1. Run the .py file by running the command ``` python3 crop.py``` in the terminal or cmd.  

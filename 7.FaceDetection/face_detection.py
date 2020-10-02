@@ -1,8 +1,8 @@
 import cv2
 
 # Path
-face_path = '7.FaceDetection/haarcascade_frontalface_default.xml'
-eye_path = '7.FaceDetection/haarcascade_eye.xml'
+face_path = './haarcascade_frontalface_default.xml'
+eye_path = './haarcascade_eye.xml'
 face_cascade = cv2.CascadeClassifier(face_path)
 eye_cascade = cv2.CascadeClassifier(eye_path)
 
@@ -47,5 +47,5 @@ def detectedFace(img):
         cv2.destroyAllWindows()
 
 
-path_img = './Media/face-001.jpg'
-face = detectedFace(path_img)
+path_img = '../Media/face-001.jpg'
+detectedFace(path_img)

@@ -1,3 +1,5 @@
+""" Color Tracker GUI """
+
 import numpy as np
 import cv2
 def nothing(x):

@@ -1,10 +1,23 @@
-import cv2  # python-opencv
-import numpy as np
+""" Drawing function in Opencv """
 
-width, height = 800, 600
-x1, y1 = 0, 0
-x2, y2 = 200, 400
-image = np.ones((height, width)) * 255
+import  cv2
 
-line_thickness = 2
-cv2.line(image, (x1, y1), (x2, y2), (0, 255, 0), thickness=line_thickness)
+img = cv2.imread("Media/apple.jpeg")
+if img is not None:
+    """ It will be create a line from (10, 10) to (100, 100)"""
+    img = cv2.line(img,
+                   pt1=(10, 10),
+                   pt2=(100, 100),
+                   color=(255, 255, 255),
+                   thickness=2)
+    
+    cv2.imshow("output", img)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+'''
+# other fucntions
+cv2.arrowedLine()
+cv2.rectangle()
+'''

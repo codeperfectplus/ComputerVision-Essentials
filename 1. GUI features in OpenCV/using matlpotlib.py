@@ -1,3 +1,5 @@
+''' Showing output using matplotlib '''
+
 from matplotlib import pyplot as plt
 import cv2
 

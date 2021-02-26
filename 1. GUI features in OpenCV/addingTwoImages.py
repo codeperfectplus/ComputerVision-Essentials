@@ -1,3 +1,5 @@
+""" Adding two images in opencv """
+
 import cv2
 
 alpha = 0.5

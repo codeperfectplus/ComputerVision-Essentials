@@ -2,7 +2,7 @@
 
 import  cv2
 
-img = cv2.imread("Media/apple.jpeg")
+img = cv2.imread("./Media/apple.jpeg")
 if img is not None:
     """ It will be create a line from (10, 10) to (100, 100)"""
     img = cv2.line(img,

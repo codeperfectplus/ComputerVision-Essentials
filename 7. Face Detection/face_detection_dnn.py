@@ -1,3 +1,4 @@
+""" Face detection using deep learning and opencv """
 import numpy as np
 import cv2
 

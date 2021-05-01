@@ -1,3 +1,5 @@
+""" Live cam contouring using thresholding and findContours() """
+
 import cv2
 
 cap = cv2.VideoCapture(0)

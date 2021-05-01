@@ -1,3 +1,5 @@
+""" Real time face detection using haarcascade classifier """\
+
 import numpy as np
 import cv2
 

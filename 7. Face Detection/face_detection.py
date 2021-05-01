@@ -1,3 +1,5 @@
+""" Face detection using haarcascade_frontalface and eye classifier """
+
 import cv2
 
 # Path

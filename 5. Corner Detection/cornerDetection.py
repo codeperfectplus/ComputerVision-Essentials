@@ -1,4 +1,7 @@
-''' Corner detection in Python '''
+''' 
+Corner detection in Python 
+
+'''
 import cv2
 import numpy as np
 

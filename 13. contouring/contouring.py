@@ -1,3 +1,5 @@
+""" Image contoutring on thumbs images using binary thresholding and findCountours() """
+
 import cv2
 import matplotlib.pyplot as plt
 

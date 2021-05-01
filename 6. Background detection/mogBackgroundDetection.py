@@ -1,3 +1,5 @@
+""" Background subtraction using opencv """
+
 import numpy as np
 import cv2
 

@@ -1,3 +1,5 @@
+""" Real time face detection using deep learning """
+
 import numpy as np
 import cv2
 

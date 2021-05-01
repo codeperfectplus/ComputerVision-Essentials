@@ -1,6 +1,6 @@
 # OpenCv Tutorial
 
-<img align="right" src="./Media/opencv-logo-white.png">
+<img align="right" src="Media/opencv-logo-white.png">
 
 - [OpenCv Tutorial](#opencv-tutorial)
   - [Introduction](#introduction)
@@ -24,7 +24,7 @@ OpenCV is a cross-platform library using which we can develop real-time computer
 
 Create virtual envionment with `pipenv`.
 ```bash
-pip install pipenv                 #only for one time
+python -m pip install pipenv
 pipenv install -r requirements.txt
 pipenv shell
 ```
@@ -36,7 +36,7 @@ Computer vision allows the computer to perform the same kind of tasks as humans 
 - Object Classification - In the object classification, we train a model on a dataset of particular objects, and the model classifies new objects as belonging to one or more of your training categories.
 - Object Identification - In the object identification, our model will identify a particular instance of an object - for example, parsing two faces in an image and tagging one as Virat Kohli and other one as Rohit Sharma.
 
-<img height="400px" width="600px" src="./Media/face-detected.jpeg">
+<img height="400px" width="600px" src="Media/face-detected.jpeg">
 
 ## Support
 
@@ -58,7 +58,15 @@ Perform basic troubleshooting steps:
 
 ## Authors and acknowledgment
 
-Show your appreciation to those who have contributed to the project.
+- [Deepak Raj](https://github.com/codePerfectPlus)
+- [Pranjalmishra30](https://github.com/Pranjalmishra30)
+- [GloriousMusketeer](https://github.com/GloriousMusketeer)
+- [bislara](https://github.com/bislara)
+- [its-harshil](https://github.com/its-harshil)
+- [farhan0syakir](https://github.com/farhan0syakir)
+- [harshit-saraswat](https://github.com/harshit-saraswat)
+
+[...](https://github.com/codePerfectPlus/OpenCv-tutorial/graphs/contributors)
 
 ## License
 
@@ -69,7 +77,6 @@ For open source projects,Under MIT License.
 ## Author
 
 - Project : OpenCv Tutorial
-- Author  : Py-Contributors
 - Language : Python
 - Github : <https://github.com/codePerfectPlus>
 - Website : <http://codeperfectplus.github.io>

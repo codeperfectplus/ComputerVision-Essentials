@@ -24,7 +24,7 @@ OpenCV is a cross-platform library using which we can develop real-time computer
 
 Create virtual envionment with `pipenv`.
 ```bash
-pip install pipenv                 #only for one time
+python -m pip install pipenv
 pipenv install -r requirements.txt
 pipenv shell
 ```
@@ -58,7 +58,15 @@ Perform basic troubleshooting steps:
 
 ## Authors and acknowledgment
 
-Show your appreciation to those who have contributed to the project.
+- [Deepak Raj](https://github.com/codePerfectPlus)
+- [Pranjalmishra30](https://github.com/Pranjalmishra30)
+- [GloriousMusketeer](https://github.com/GloriousMusketeer)
+- [bislara](https://github.com/bislara)
+- [its-harshil](https://github.com/its-harshil)
+- [farhan0syakir](https://github.com/farhan0syakir)
+- [harshit-saraswat](https://github.com/harshit-saraswat)
+
+[...](https://github.com/codePerfectPlus/OpenCv-tutorial/graphs/contributors)
 
 ## License
 
@@ -69,7 +77,6 @@ For open source projects,Under MIT License.
 ## Author
 
 - Project : OpenCv Tutorial
-- Author  : Py-Contributors
 - Language : Python
 - Github : <https://github.com/codePerfectPlus>
 - Website : <http://codeperfectplus.github.io>

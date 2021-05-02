@@ -12,7 +12,7 @@ while True:
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         # create a binary threshold
-        _, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
+        _, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY_INV)
 
         contours, hierarchy = cv2.findContours(binary, cv2.RETR_TREE, 
                                                cv2.CHAIN_APPROX_SIMPLE)

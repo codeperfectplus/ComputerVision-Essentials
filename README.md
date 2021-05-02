@@ -65,8 +65,7 @@ Perform basic troubleshooting steps:
 - [its-harshil](https://github.com/its-harshil)
 - [farhan0syakir](https://github.com/farhan0syakir)
 - [harshit-saraswat](https://github.com/harshit-saraswat)
-
-[...](https://github.com/codePerfectPlus/OpenCv-tutorial/graphs/contributors)
+- [...](https://github.com/codePerfectPlus/OpenCv-tutorial/graphs/contributors)
 
 ## License
 
@@ -79,4 +78,4 @@ For open source projects,Under MIT License.
 - Project : OpenCv Tutorial
 - Language : Python
 - Github : <https://github.com/codePerfectPlus>
-- Website : <http://codeperfectplus.github.io>
+- Website : <http://codeperfectplus.herokuapp.com>

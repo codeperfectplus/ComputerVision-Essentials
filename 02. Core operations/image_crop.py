@@ -1,7 +1,9 @@
+""" Image cropping using opencv """
+
 import cv2
 refpt = [] #List of refrence points
 
-def select_roi (event,x,y,flags,param):
+def select_roi (event, x, y, flags, param):
     global refpt #Global refrences
 
     if event == cv2.EVENT_LBUTTONDOWN: # When the left mouse button is clicked
@@ -20,12 +22,12 @@ clone = img_main.copy() # To reset the image after cropping
 clone2 = img_main.copy() # To crop a section out without affecting the original image
 
 cv2.namedWindow("frame")
-cv2.setMouseCallback("frame",select_roi)
+cv2.setMouseCallback("frame", select_roi)
 
 i=1 # Numbering for saving images
 
 while True:
-    cv2.imshow("frame",img_main)
+    cv2.imshow("frame", img_main)
     var = cv2.waitKey(0)
 
     '''

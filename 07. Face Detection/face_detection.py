@@ -3,10 +3,8 @@
 import cv2
 
 # Path
-face_path = './haarcascade_frontalface_default.xml'
-eye_path = './haarcascade_eye.xml'
-face_cascade = cv2.CascadeClassifier(face_path)
-eye_cascade = cv2.CascadeClassifier(eye_path)
+face_cascade = cv2.CascadeClassifier('./assets/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('./assets/haarcascade_eye.xml')
 
 
 def detectedFace(img):
@@ -45,9 +43,9 @@ def detectedFace(img):
     if k == 27:
         cv2.destroyAllWindows()
     elif k == ord('s'):
-        cv2.imwrite('Media/face-detected.jpeg', img)
+        cv2.imwrite('./Media/face-detected.jpeg', img)
         cv2.destroyAllWindows()
 
 
-path_img = '../Media/face-001.jpg'
+path_img = './Media/face-001.jpg'
 detectedFace(path_img)

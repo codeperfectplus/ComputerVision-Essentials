@@ -3,10 +3,13 @@ import numpy as np
 import cv2
 
 # Global Declarations
-proto='deploy.prototxt.txt'
-model='res10_300x300_ssd_iter_140000.caffemodel'
+# https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt
+prototxt_path = "./assets/deploy.prototxt.txt"
+# https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20180205_fp16/res10_300x300_ssd_iter_140000_fp16.caffemodel 
+model_path = "./assets/res10_300x300_ssd_iter_140000.caffemodel"
+
 confThresh=0.8
-net = cv2.dnn.readNetFromCaffe(proto, model)
+net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
 
 def detectFace(imgPath):
     img = cv2.imread(imgPath)
@@ -31,10 +34,10 @@ def detectFace(imgPath):
     if key == 27:
         cv2.destroyAllWindows()
     elif key == ord('s'):
-        cv2.imwrite('../Media/face-detected-dnn.jpeg', img)
+        cv2.imwrite('./Media/face-detected-dnn.jpeg', img)
         cv2.destroyAllWindows()
 
 
 
-path_img = '../Media/face-001.jpg'
+path_img = './Media/face-001.jpg'
 detectFace(path_img)

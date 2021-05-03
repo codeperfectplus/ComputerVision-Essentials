@@ -5,9 +5,9 @@ import numpy as np
 import time
 
 # https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt
-prototxt_path = "07. Face Detection/deploy.prototxt.txt"
+prototxt_path = "./assets/deploy.prototxt.txt"
 # https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20180205_fp16/res10_300x300_ssd_iter_140000_fp16.caffemodel 
-model_path = "07. Face Detection/res10_300x300_ssd_iter_140000.caffemodel"
+model_path = "./assets/res10_300x300_ssd_iter_140000.caffemodel"
 
 # load Caffe model
 model = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)

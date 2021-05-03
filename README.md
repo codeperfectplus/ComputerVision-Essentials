@@ -1,9 +1,8 @@
-# OpenCv Tutorial
+# Computer Vision Essentials
 
-<img align="right" src="Media/opencv-logo-white.png">
-
-- [OpenCv Tutorial](#opencv-tutorial)
+- [Computer Vision Essentials](#computer-vision-essentials)
   - [Introduction](#introduction)
+  - [Used Libraries/Packages](#used-librariespackages)
   - [How To Run](#how-to-run)
   - [Usage](#usage)
   - [Support](#support)
@@ -16,18 +15,41 @@
 
 ## Introduction
 
-OpenCV is a cross-platform library using which we can develop real-time computer vision applications. It mainly focuses on image processing, video capture and analysis including features like face detection and object detection. In this tutorial, we explain how you can use OpenCV in your applications.
+According to [wikipedia](https://en.wikipedia.org/wiki/Computer_vision, "computer_vision-Wikipedia") -
+
+Computer vision is an interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos. From the perspective of engineering, it seeks to understand and automate tasks that the human visual system can do.
+
+Computer vision tasks include methods for acquiring, processing, analyzing and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information, e.g. in the forms of decisions.
+
+[Read More ...](https://en.wikipedia.org/wiki/Computer_vision, "computer_vision-Wikipedia")
+
+## Used Libraries/Packages
+
+- **OpenCV** - OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
+- **CVLib** - A simple, high level, easy-to-use open source Computer Vision library for Python.
+- **Dlib** - Dlib is a general purpose cross-platform software library written in the programming language C++. 
+- **PIL/Pillow** - Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats
+- **Keras** - Keras is the most used deep learning framework among top-5 winning teams on Kaggle. 
+- **Tensorflow** - TensorFlow is a free and open-source software library for machine learning.
+- **Pytessarct** - Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images.
+- **IPSDK** - IPSDK offers a comprehensive and optimized range of functionalities for 2D and 3D image processing.
+- **scikit-image** - scikit-image is an open-source image processing library for the Python programming language. It includes algorithms for segmentation, geometric transformations, color space manipulation, analysis, filtering, morphology, feature detection, and more.
+- **Matplotlib** - Matplotlib is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
+- **mahotas** - Mahotas is a computer vision and image processing library for Python.
 
 ## How To Run
 
 - Install python 3.6+
 
 Create virtual envionment with `pipenv`.
+
 ```bash
 python -m pip install pipenv
 pipenv install -r requirements.txt
 pipenv shell
 ```
+
+NOTE- check the [guide](https://www.tensorflow.org/install) for tenosflow installation for your CPU/GPU. for using tensorflow-gpu install the CUDA-11.0 and necessary libraries.
 
 ## Usage
 
@@ -75,7 +97,7 @@ For open source projects,Under MIT License.
 
 ## Author
 
-- Project : OpenCv Tutorial
+- Project : Computer Vision Essentials
 - Language : Python
 - Github : <https://github.com/codePerfectPlus>
 - Website : <http://codeperfectplus.herokuapp.com>

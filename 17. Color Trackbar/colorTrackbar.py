@@ -2,12 +2,13 @@
 
 import numpy as np
 import cv2
+
 def nothing(x):
     pass
 
 # Create a black image, a window
-img = np.zeros((300,512,3), np.uint8)
-cv2.namedWindow('image')
+img = np.zeros((300, 512, 3), np.uint8)
+cv2.namedWindow('Color Tracker')
 
 # create trackbars for color change
 cv2.createTrackbar('R','image',0,255,nothing)

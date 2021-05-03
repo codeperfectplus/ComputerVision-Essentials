@@ -4,17 +4,21 @@ import numpy as np
 
 cap = cv2.VideoCapture(0)
 
-while(1):
+while True:
 
-    _, frame = cap.read()
+    check, frame = cap.read()
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    cv2.imshow('Original',frame)
-    edges = cv2.Canny(frame,100,200)
-    cv2.imshow('Edges',edges)
+    if check:
+        # applying canny edge transformation
+        edges = cv2.Canny(gray, threshold1=30, threshold2=100)
 
-    k = cv2.waitKey(5) & 0xFF
-    if k == 27:
-        break
+        # showing the output frame
+        cv2.imshow('Original',frame)
+        cv2.imshow('Edges', edges)
 
-cv2.destroyAllWindows()
+        if cv2.waitKey(5) & 0xFF == 27:
+            break
+
 cap.release()
+cv2.destroyAllWindows()

@@ -12,6 +12,7 @@
   - [License](#license)
   - [Citation](#citation)
   - [Author](#author)
+  - [Extra Downloads](#extra-downloads)
 
 ## Introduction
 
@@ -25,17 +26,16 @@ Computer vision tasks include methods for acquiring, processing, analyzing and u
 
 ## Used Libraries/Packages
 
-- **OpenCV** - OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
+- **OpenCV** - OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.
+- **PixelLib** - PixelLib is a library created for performing image and video segmentation using few lines of code.
 - **CVLib** - A simple, high level, easy-to-use open source Computer Vision library for Python.
-- **Dlib** - Dlib is a general purpose cross-platform software library written in the programming language C++. 
+- **Dlib** - Dlib is a general purpose cross-platform software library written in the programming language C++.
 - **PIL/Pillow** - Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats
-- **Keras** - Keras is the most used deep learning framework among top-5 winning teams on Kaggle. 
+- **Keras** - Keras is the most used deep learning framework among top-5 winning teams on Kaggle.
 - **Tensorflow** - TensorFlow is a free and open-source software library for machine learning.
 - **Pytessarct** - Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images.
-- **IPSDK** - IPSDK offers a comprehensive and optimized range of functionalities for 2D and 3D image processing.
 - **scikit-image** - scikit-image is an open-source image processing library for the Python programming language. It includes algorithms for segmentation, geometric transformations, color space manipulation, analysis, filtering, morphology, feature detection, and more.
 - **Matplotlib** - Matplotlib is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy.
-- **mahotas** - Mahotas is a computer vision and image processing library for Python.
 
 ## How To Run
 
@@ -50,6 +50,12 @@ pipenv shell
 ```
 
 NOTE- check the [guide](https://www.tensorflow.org/install) for tenosflow installation for your CPU/GPU. for using tensorflow-gpu install the CUDA-11.0 and necessary libraries.
+
+Large models and files hosted on google drive. **For downloading them run [utils.py](utils.py)**
+
+```bash
+python utils.py
+```
 
 ## Usage
 
@@ -66,7 +72,6 @@ contributers
 
 ## Roadmap
 
-More Data Analysis With Kaggle and improvement in previous Codes
 
 ## Contributing
 
@@ -107,3 +112,7 @@ Coelho, L.P. 2013. Mahotas: Open source software for scriptable computer vision.
 - Language : Python
 - Github : <https://github.com/codePerfectPlus>
 - Website : <http://codeperfectplus.herokuapp.com>
+
+## Extra Downloads
+
+1. FaceDetection Caffee Models

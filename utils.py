@@ -10,5 +10,3 @@ for file_id, dest_path in download_dict.items():
     gdd.download_file_from_google_drive(file_id=file_id,
                                         dest_path=dest_path,
                                         unzip=True)
-
-

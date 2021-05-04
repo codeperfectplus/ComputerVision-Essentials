@@ -9,13 +9,14 @@ out = cv2.VideoWriter("./Media/output.avi", fourcc, 20.0, (640,480))
 
 while(cap.isOpened()):
     ret, frame = cap.read()
-    if ret == True:
+    if ret:
         frame = cv2.flip(frame,0)
 
         # write the filpped frame
         out.write(frame)
 
         cv2.imshow('video',frame)
+
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     else:

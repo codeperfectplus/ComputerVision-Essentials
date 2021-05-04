@@ -16,22 +16,22 @@ if img is not None:
                           pt2=(300, 300),
                           color=(0, 255, 255),
                           thickness=2)
-    
-    img = cv2.rectangle(img, 
+
+    img = cv2.rectangle(img,
                         pt1=(250, 0),
                         pt2=(450, 250),
                         color=(0, 255, 0),
                         thickness=2)
 
     img = cv2.circle(img,
-                     center=(100, 100), 
-                     radius=50, 
-                     color=(255, 0, 255), 
+                     center=(100, 100),
+                     radius=50,
+                     color=(255, 0, 255),
                      thickness=-1)
 
     cv2.imshow("output", img)
 else:
     print('file not found.')
-    
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()

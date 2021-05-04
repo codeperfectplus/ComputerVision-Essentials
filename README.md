@@ -10,7 +10,7 @@
   - [Contributing](#contributing)
   - [Authors and acknowledgment](#authors-and-acknowledgment)
   - [License](#license)
-  - [Project status](#project-status)
+  - [Citation](#citation)
   - [Author](#author)
 
 ## Introduction
@@ -93,7 +93,13 @@ Perform basic troubleshooting steps:
 
 For open source projects,Under MIT License.
 
-## Project status
+## Citation
+
+```
+Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the scikit-image contributors. scikit-image: Image processing in Python. PeerJ 2:e453 (2014) https://doi.org/10.7717/peerj.453
+
+Coelho, L.P. 2013. Mahotas: Open source software for scriptable computer vision. Journal of Open Research Software 1(1):e3, DOI: http://dx.doi.org/10.5334/jors.ac
+```
 
 ## Author
 

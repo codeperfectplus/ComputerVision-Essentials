@@ -5,7 +5,6 @@ import numpy as np
 
 video_capture = cv2.VideoCapture(0)
 
-
 # Create arrays of known face encodings and their names
 known_face_encodings = []
 known_face_names = []
@@ -13,11 +12,14 @@ known_face_names = []
 root_dir = os.path.dirname(os.path.abspath(os.path.abspath(__file__)))
 image_dir = os.path.join(root_dir, "images")
 
+# creating encodings for faces from images folder
 for file in os.listdir(image_dir):
-    if file.endswith == ".jpeg" or ".jpg":
+    if file.endswith == "jpeg" or "jpg":
         input_face_name = file.split('.')[0]
         input_face = face_recognition.load_image_file(os.path.join(image_dir, file))
         input_face_encoding = face_recognition.face_encodings(input_face)[0]
+
+        # appending face_names and face encoding
         known_face_names.append(input_face_name)
         known_face_encodings.append(input_face_encoding)
 

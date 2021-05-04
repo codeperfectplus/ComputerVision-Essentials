@@ -1,4 +1,5 @@
 ''' Mouse Events in OpenCV '''
+
 import cv2
 import numpy as np
 

@@ -45,3 +45,7 @@ venv.bak/
 
 # others
 test.py
+*.h5
+*.caffemodel
+*.mp4
+inference_model/
